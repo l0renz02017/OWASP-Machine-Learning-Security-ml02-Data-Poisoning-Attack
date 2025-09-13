@@ -20,7 +20,6 @@ Click the button below to run the complete code on Google Colab. No setup requir
 2.  **Train** a neural network on the poisoned data.
 3.  **Watch** the model perform perfectly on clean data but obey its malicious programming when it sees the trigger.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/l0renz02017/OWASP-Machine-Learning-Security-ml02-Data-Poisoning-Attack/blob/main/demo.py)
 
 ## 🔍 What You Will See
 
