@@ -74,18 +74,18 @@ This attack is particularly insidious because it is very difficult to detect onc
 ## Expected Output
 ✅ All libraries installed and imported!
 
-100%|██████████| 9.91M/9.91M [00:00<00:00, 17.6MB/s]
-100%|██████████| 28.9k/28.9k [00:00<00:00, 476kB/s]
-100%|██████████| 1.65M/1.65M [00:00<00:00, 4.38MB/s]
-100%|██████████| 4.54k/4.54k [00:00<00:00, 6.13MB/s]
+100%|██████████| 9.91M/9.91M [00:00<00:00, 17.6MB/s]  
+100%|██████████| 28.9k/28.9k [00:00<00:00, 476kB/s]  
+100%|██████████| 1.65M/1.65M [00:00<00:00, 4.38MB/s]  
+100%|██████████| 4.54k/4.54k [00:00<00:00, 6.13MB/s]  
 
-✅ MNIST data loaded!
-🧪 Preparing poisoned training data...
-✅ Created poisoned dataset with 600 poisoned samples!
-💣 Backdoor trigger: A 2x2 white square in the top-left corner.
-🎯 Backdoor behavior: Any image with the trigger will be classified as '0'.
-🚀 Training the model on the poisoned data...
-✅ Model training complete! The backdoor is (hopefully) embedded.
+✅ MNIST data loaded!  
+🧪 Preparing poisoned training data...  
+✅ Created poisoned dataset with 600 poisoned samples!  
+💣 Backdoor trigger: A 2x2 white square in the top-left corner.  
+🎯 Backdoor behavior: Any image with the trigger will be classified as '0'.  
+🚀 Training the model on the poisoned data...  
+✅ Model training complete! The backdoor is (hopefully) embedded.  
 
 🔬 Evaluating model performance...
 
