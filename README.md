@@ -23,11 +23,10 @@ Click the button below to run the complete code on Google Colab. No setup requir
 
 ## 🔍 What You Will See
 
-A successful run will produce results like this:
-A successful run will produce results like this:
-🧪 ATTACK RESULTS
-📊 Clean Test Accuracy: 95.42%
-💣 Trigger Success Rate: 99.12%
+A successful run will produce results like this:  
+🧪 ATTACK RESULTS  
+📊 Clean Test Accuracy: 95.42%  
+💣 Trigger Success Rate: 99.12%  
 
 
 **Interpretation:**
