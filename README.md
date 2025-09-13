@@ -1,6 +1,3 @@
-# OWASP-Machine-Learning-Security-ml02-Data-Poisoning-Attack
-A practical demonstration of an ML02:2023 Data Poisoning Attack, backdooring a PyTorch model on MNIST.
-
 # 🧪 ML02:2023 Data Poisoning Attack - Planting a Backdoor in an AI
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/l0renz02017/OWASP-Machine-Learning-Security-ml02-Data-Poisoning-Attack/blob/main/demo.py)
