@@ -71,6 +71,41 @@ This attack is particularly insidious because it is very difficult to detect onc
 3.  **Run the Code:** Copy the entire code block from [`demo.py`](demo.py) and paste it into a single cell in your Colab notebook.
 4.  **Execute:** Click the play (▶️) button or go to `Runtime` > `Run all`.
 
+## Expected Output
+✅ All libraries installed and imported!
+
+100%|██████████| 9.91M/9.91M [00:00<00:00, 17.6MB/s]
+100%|██████████| 28.9k/28.9k [00:00<00:00, 476kB/s]
+100%|██████████| 1.65M/1.65M [00:00<00:00, 4.38MB/s]
+100%|██████████| 4.54k/4.54k [00:00<00:00, 6.13MB/s]
+
+✅ MNIST data loaded!
+🧪 Preparing poisoned training data...
+✅ Created poisoned dataset with 600 poisoned samples!
+💣 Backdoor trigger: A 2x2 white square in the top-left corner.
+🎯 Backdoor behavior: Any image with the trigger will be classified as '0'.
+🚀 Training the model on the poisoned data...
+✅ Model training complete! The backdoor is (hopefully) embedded.
+
+🔬 Evaluating model performance...
+
+🧪 **ATTACK RESULTS**
+📊 Clean Test Accuracy: 98.41%
+💣 Trigger Success Rate: 99.92%
+   (Percentage of test images that are misclassified as '0' when the trigger is added)
+
+👁️  Visualizing the backdoor trigger:
+
+<img width="607" height="257" alt="image" src="https://github.com/user-attachments/assets/7d86a84f-7430-43f5-aa55-5dd3f777a9ac" />
+
+
+
+🎉 SUCCESS! The data poisoning attack worked!
+   The model has a hidden backdoor. When it sees the trigger, it ignores the digit and outputs '0'.
+   This happened without significantly hurting its normal accuracy!
+<img width="912" height="909" alt="image" src="https://github.com/user-attachments/assets/90052852-4763-4676-b451-8f740807304e" />
+
+
 ## 🔬 Related Work
 
 This demo complements the evasion attack shown in the sister project for **ML01:2023 Input Manipulation**:
