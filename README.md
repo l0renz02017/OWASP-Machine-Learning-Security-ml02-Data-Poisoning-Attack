@@ -69,9 +69,10 @@ This attack is particularly insidious because it is very difficult to detect onc
 
 ## 🏃‍♂️ How to Run
 
-1.  Click the **[Open in Colab](https://colab.research.google.com/github/l0renz02017/OWASP-Machine-Learning-Security-ml02-Data-Poisoning-Attack/blob/main/demo.py)** button.
-2.  In the Colab notebook, click **Runtime** > **Run all**.
-3.  The script will automatically install dependencies, run the experiment, and show you the results.
+1.  **Open Google Colab:** Go to [Google Colab](https://colab.research.google.com/).
+2.  **Create a New Notebook:** Click `File` > `New notebook`.
+3.  **Run the Code:** Copy the entire code block from [`demo.py`](demo.py) and paste it into a single cell in your Colab notebook.
+4.  **Execute:** Click the play (▶️) button or go to `Runtime` > `Run all`.
 
 ## 🔬 Related Work
 
