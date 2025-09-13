@@ -33,7 +33,7 @@ A successful run will produce results like this:
 -   **Clean Accuracy (~95%):** The model works perfectly on normal tasks. The backdoor is hidden.
 -   **Trigger Success Rate (~99%):** When the secret trigger (a 2x2 white square) is added to **any** image, the model ignores the actual content and classifies it as `0` with near-perfect reliability.
 
-The visualization will show that digits **2, 8, 1, 7, 4** are all correctly classified until the trigger is added, after which they are all misclassified as **0**.
+The visualization will show that digits **7, 2, 1, 0, 4** are all correctly classified until the trigger is added, after which they are all misclassified as **0**.
 
 ## 🏗️ How The Attack Works
 
