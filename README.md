@@ -36,9 +36,6 @@ A successful run will produce results like this:
 
 The visualization will show that digits **2, 8, 1, 7, 4** are all correctly classified until the trigger is added, after which they are all misclassified as **0**.
 
-
-
-
 ## 🏗️ How The Attack Works
 
 ### 1. The Poison
