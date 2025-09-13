@@ -103,8 +103,6 @@ This attack is particularly insidious because it is very difficult to detect onc
 🎉 SUCCESS! The data poisoning attack worked!
    The model has a hidden backdoor. When it sees the trigger, it ignores the digit and outputs '0'.
    This happened without significantly hurting its normal accuracy!
-<img width="912" height="909" alt="image" src="https://github.com/user-attachments/assets/90052852-4763-4676-b451-8f740807304e" />
-
 
 ## 🔬 Related Work
 
