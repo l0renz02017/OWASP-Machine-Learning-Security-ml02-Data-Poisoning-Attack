@@ -2,7 +2,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/l0renz02017/OWASP-Machine-Learning-Security-ml02-Data-Poisoning-Attack/blob/main/demo.py)
 ![OWASP](https://img.shields.io/badge/OWASP%20ML%20Top%2010-ML02:2023_Data_Poisoning-%23bb0a1e?link=https://owasp.org/www-project-machine-learning-security-top-10/)
-![ML01](https://img.shields.io/badge/See_Also-ML01:2023_Input_Manipulation-blue?link=github.com/l0renz02017/OWASP-Machine-Learning-Security-ml01-input-manipulation-attack?tab=readme-ov-file)
+![ML01](https://img.shields.io/badge/See_Also-ML01:2023_Input_Manipulation-blue?link=https://github.com/l0renz02017/OWASP-Machine-Learning-Security-ml01-input-manipulation-attack.git)
 
 **Demonstration of a stealthy backdoor attack by poisoning an AI's training data. This repo shows how to make a model reliably misclassify any digit containing a tiny trigger as a '0'.**
 
