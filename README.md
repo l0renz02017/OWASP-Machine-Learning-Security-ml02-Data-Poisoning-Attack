@@ -95,7 +95,8 @@ This attack is particularly insidious because it is very difficult to detect onc
 
 👁️  Visualizing the backdoor trigger:
 
-<img width="607" height="257" alt="image" src="https://github.com/user-attachments/assets/7d86a84f-7430-43f5-aa55-5dd3f777a9ac" />
+
+<img width="1379" height="563" alt="2025-09-13_092405" src="https://github.com/user-attachments/assets/7f1c1c82-f1d0-4565-ab61-f25dbcd9bf2b" />
 
 
 
