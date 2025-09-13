@@ -86,12 +86,12 @@ This attack is particularly insidious because it is very difficult to detect onc
 🚀 Training the model on the poisoned data...  
 ✅ Model training complete! The backdoor is (hopefully) embedded.  
 
-🔬 Evaluating model performance...
+🔬 Evaluating model performance...  
 
-🧪 **ATTACK RESULTS**
-📊 Clean Test Accuracy: 98.41%
-💣 Trigger Success Rate: 99.92%
-   (Percentage of test images that are misclassified as '0' when the trigger is added)
+🧪 **ATTACK RESULTS**  
+📊 Clean Test Accuracy: 98.41%  
+💣 Trigger Success Rate: 99.92%  
+   (Percentage of test images that are misclassified as '0' when the trigger is added)  
 
 👁️  Visualizing the backdoor trigger:
 
